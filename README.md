@@ -1,6 +1,4 @@
 # Multilayer-Traffic-Layer-Positioning
-Source code for the paper "The Role of Layer Positioning in Multilayer Traffic Networks: A Trade-Off Between Path Efficiency and Load Balancing". Implements traffic dynamics on multilayer networks with LDC, MDC, and HDC strategies.
-project/
 ├── main.cpp                          # 主程序入口
 ├── BA_network.h                      # BA网络生成模块
 ├── ER_network.h                      # ER网络生成模块
