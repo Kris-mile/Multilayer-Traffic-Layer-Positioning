@@ -15,6 +15,7 @@
 #include <chrono>
 #include <limits>
 #include <unordered_map>
+#include <climits>
 #include <omp.h>
 
 std::mt19937 global_rng;
