@@ -15,8 +15,8 @@ This project simulates traffic dynamics on heterogeneous multilayer networks to 
   - `LDC`: Low-Degree-Core
   - `MDC`: Medium-Degree-Core
   - `HDC`: High-Degree-Core
-- **High-Performance Algorithms**:
-  - Implements an optimized **Brandes Algorithm** to independently compute intra-layer ($b_I$) and inter-layer ($b_E$) effective betweenness centrality.
+- **Core Algorithms**:
+  - Computes intra-layer ($b_I$) and inter-layer ($b_E$) effective betweenness centrality based on recursive shortest-path tree traversals.
   - Utilizes **Cell-List (Grid) algorithms** for efficient spatial connection building in RGGs ($O(N)$ complexity locally).
   - Supports **OpenMP** parallelization to accelerate large-scale Monte Carlo simulations and BFS shortest-path searches.
 
