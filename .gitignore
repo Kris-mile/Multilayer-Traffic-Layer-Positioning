@@ -1,0 +1,21 @@
+# Prerequisites
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.obj
+
+# Visual Studio specific
+.vs/
+*.user
+*.suo
+*.sln.docstates
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+*.vcxproj.user
